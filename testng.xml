@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Utils.ListenerClass"></listener>
+	</listeners>
+  <test thread-count="5" name="Test" parallel="classes">
+	  <parameter name="baseUrl" value="https://www.saucedemo.com/"/>
+	   <parameter name="BrowserName" value="Chrome"/>
+	   <parameter name="BrowserVersion" value="114.0.5735.199"/>
+    <classes>
+      <class name="tests.ProductsPageTest"/>
+      <class name="tests.ProductPageTests"/>
+      <class name="tests.BaseTest"/>
+      <class name="tests.ThanksPageTests"/>
+      <class name="tests.CheckoutPageTests"/>
+      <class name="tests.CartPageTests"/>
+      <class name="tests.MenuPageTests"/>
+      <class name="tests.LogInPageTests"/>
+      <class name="tests.OverviewPageTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

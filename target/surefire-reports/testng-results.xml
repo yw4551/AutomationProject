@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="62" passed="54" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-11T19:47:15 IDT" name="Suite" finished-at="2023-07-11T19:49:45 IDT" duration-ms="149801">
+    <groups>
+    </groups>
+    <test started-at="2023-07-11T19:47:15 IDT" name="Test" finished-at="2023-07-11T19:49:45 IDT" duration-ms="149801">
+      <class name="tests.ProductPageTests">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:47:15 IDT" name="setup" finished-at="2023-07-11T19:47:22 IDT" duration-ms="7046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="myTest()[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:47:22 IDT" name="myTest" finished-at="2023-07-11T19:47:22 IDT" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:47:22 IDT" name="tearDown" finished-at="2023-07-11T19:47:22 IDT" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:47:22 IDT" name="setup" finished-at="2023-07-11T19:47:27 IDT" duration-ms="4461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC15()[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:47:27 IDT" name="TC15" description="Product page" finished-at="2023-07-11T19:47:33 IDT" duration-ms="6629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC15 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:47:33 IDT" name="tearDown" finished-at="2023-07-11T19:47:34 IDT" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:47:34 IDT" name="setup" finished-at="2023-07-11T19:47:36 IDT" duration-ms="2875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC16()[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:47:36 IDT" name="TC16" description="Product page" finished-at="2023-07-11T19:47:46 IDT" duration-ms="9401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC16 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:47:46 IDT" name="tearDown" finished-at="2023-07-11T19:47:46 IDT" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:47:46 IDT" name="setup" finished-at="2023-07-11T19:47:49 IDT" duration-ms="3010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC17()[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:47:49 IDT" name="TC17" description="Product page" finished-at="2023-07-11T19:47:58 IDT" duration-ms="9247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC17 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:47:58 IDT" name="tearDown" finished-at="2023-07-11T19:47:59 IDT" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:47:59 IDT" name="setup" finished-at="2023-07-11T19:48:02 IDT" duration-ms="3188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC18()[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:48:02 IDT" name="TC18" description="Product page" finished-at="2023-07-11T19:48:15 IDT" duration-ms="13064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:48:15 IDT" name="tearDown" finished-at="2023-07-11T19:48:15 IDT" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:48:15 IDT" name="setup" finished-at="2023-07-11T19:48:18 IDT" duration-ms="3210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC19()[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:48:18 IDT" name="TC19" description="Product page" finished-at="2023-07-11T19:48:35 IDT" duration-ms="17060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC19 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:48:35 IDT" name="tearDown" finished-at="2023-07-11T19:48:36 IDT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:48:36 IDT" name="setup" finished-at="2023-07-11T19:48:39 IDT" duration-ms="3086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC20()[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:48:39 IDT" name="TC20" description="Product page" finished-at="2023-07-11T19:49:11 IDT" duration-ms="32654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC20 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductPageTests@4e31c3ec]" started-at="2023-07-11T19:49:11 IDT" name="tearDown" finished-at="2023-07-11T19:49:12 IDT" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductPageTests -->
+      <class name="tests.ThanksPageTests">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ThanksPageTests@6eaa21d8]" started-at="2023-07-11T19:47:15 IDT" name="setup" finished-at="2023-07-11T19:47:22 IDT" duration-ms="7219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="myTest()[pri:0, instance:tests.ThanksPageTests@6eaa21d8]" started-at="2023-07-11T19:47:22 IDT" name="myTest" finished-at="2023-07-11T19:47:22 IDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ThanksPageTests@6eaa21d8]" started-at="2023-07-11T19:47:22 IDT" name="tearDown" finished-at="2023-07-11T19:47:22 IDT" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ThanksPageTests@6eaa21d8]" started-at="2023-07-11T19:47:22 IDT" name="setup" finished-at="2023-07-11T19:47:27 IDT" duration-ms="4200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC33()[pri:0, instance:tests.ThanksPageTests@6eaa21d8]" started-at="2023-07-11T19:47:27 IDT" name="TC33" description="Thank You Page" finished-at="2023-07-11T19:47:38 IDT" duration-ms="11921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC33 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ThanksPageTests@6eaa21d8]" started-at="2023-07-11T19:47:38 IDT" name="tearDown" finished-at="2023-07-11T19:47:39 IDT" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ThanksPageTests@6eaa21d8]" started-at="2023-07-11T19:47:39 IDT" name="setup" finished-at="2023-07-11T19:47:42 IDT" duration-ms="3469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC34()[pri:0, instance:tests.ThanksPageTests@6eaa21d8]" started-at="2023-07-11T19:47:42 IDT" name="TC34" description="Thank You Page" finished-at="2023-07-11T19:47:55 IDT" duration-ms="12907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC34 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ThanksPageTests@6eaa21d8]" started-at="2023-07-11T19:47:55 IDT" name="tearDown" finished-at="2023-07-11T19:47:56 IDT" duration-ms="909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ThanksPageTests@6eaa21d8]" started-at="2023-07-11T19:47:56 IDT" name="setup" finished-at="2023-07-11T19:47:59 IDT" duration-ms="3080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC35()[pri:0, instance:tests.ThanksPageTests@6eaa21d8]" started-at="2023-07-11T19:47:59 IDT" name="TC35" description="Thank You Page" finished-at="2023-07-11T19:48:20 IDT" duration-ms="20323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC35 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ThanksPageTests@6eaa21d8]" started-at="2023-07-11T19:48:20 IDT" name="tearDown" finished-at="2023-07-11T19:48:20 IDT" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ThanksPageTests -->
+      <class name="tests.ProductsPageTest">
+        <test-method is-config="true" signature="setAllureEnvironment()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:47:15 IDT" name="setAllureEnvironment" finished-at="2023-07-11T19:47:15 IDT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAllureEnvironment -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:47:15 IDT" name="setup" finished-at="2023-07-11T19:47:22 IDT" duration-ms="7220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="myTest()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:47:22 IDT" name="myTest" finished-at="2023-07-11T19:47:22 IDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:47:22 IDT" name="tearDown" finished-at="2023-07-11T19:47:22 IDT" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:47:22 IDT" name="setup" finished-at="2023-07-11T19:47:27 IDT" duration-ms="4320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC08()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:47:27 IDT" name="TC08" description="Products Page" finished-at="2023-07-11T19:47:30 IDT" duration-ms="3335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:47:30 IDT" name="tearDown" finished-at="2023-07-11T19:47:30 IDT" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:47:30 IDT" name="setup" finished-at="2023-07-11T19:47:33 IDT" duration-ms="3117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC09()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:47:33 IDT" name="TC09" description="Products Page" finished-at="2023-07-11T19:47:40 IDT" duration-ms="6744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:47:40 IDT" name="tearDown" finished-at="2023-07-11T19:47:41 IDT" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:47:41 IDT" name="setup" finished-at="2023-07-11T19:47:44 IDT" duration-ms="3040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC10()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:47:44 IDT" name="TC10" description="Products Page" finished-at="2023-07-11T19:47:52 IDT" duration-ms="8048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:47:52 IDT" name="tearDown" finished-at="2023-07-11T19:47:52 IDT" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:47:52 IDT" name="setup" finished-at="2023-07-11T19:47:55 IDT" duration-ms="3326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC11()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:47:55 IDT" name="TC11" description="Products Page" finished-at="2023-07-11T19:48:03 IDT" duration-ms="8158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:48:03 IDT" name="tearDown" finished-at="2023-07-11T19:48:04 IDT" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:48:04 IDT" name="setup" finished-at="2023-07-11T19:48:07 IDT" duration-ms="3101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC12()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:48:07 IDT" name="TC12" description="Products Page" finished-at="2023-07-11T19:48:15 IDT" duration-ms="8454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:48:15 IDT" name="tearDown" finished-at="2023-07-11T19:48:15 IDT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:48:15 IDT" name="setup" finished-at="2023-07-11T19:48:19 IDT" duration-ms="3225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC13()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:48:19 IDT" name="TC13" description="Products page" finished-at="2023-07-11T19:48:30 IDT" duration-ms="11548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:48:30 IDT" name="tearDown" finished-at="2023-07-11T19:48:30 IDT" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:48:30 IDT" name="setup" finished-at="2023-07-11T19:48:34 IDT" duration-ms="3297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC14()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:48:34 IDT" name="TC14" description="Products Page" finished-at="2023-07-11T19:48:48 IDT" duration-ms="14564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductsPageTest@26722665]" started-at="2023-07-11T19:48:48 IDT" name="tearDown" finished-at="2023-07-11T19:48:48 IDT" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductsPageTest -->
+      <class name="tests.CheckoutPageTests">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:47:15 IDT" name="setup" finished-at="2023-07-11T19:47:22 IDT" duration-ms="6951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="myTest()[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:47:22 IDT" name="myTest" finished-at="2023-07-11T19:47:22 IDT" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:47:22 IDT" name="tearDown" finished-at="2023-07-11T19:47:22 IDT" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:47:22 IDT" name="setup" finished-at="2023-07-11T19:47:27 IDT" duration-ms="4252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC26()[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:47:27 IDT" name="TC26" description="Checkout Page" finished-at="2023-07-11T19:47:38 IDT" duration-ms="11156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC26 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:47:38 IDT" name="tearDown" finished-at="2023-07-11T19:47:38 IDT" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:47:38 IDT" name="setup" finished-at="2023-07-11T19:47:41 IDT" duration-ms="3184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC27()[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:47:41 IDT" name="TC27" description="Checkout page" finished-at="2023-07-11T19:47:51 IDT" duration-ms="10127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC27 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:47:51 IDT" name="tearDown" finished-at="2023-07-11T19:47:52 IDT" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:47:52 IDT" name="setup" finished-at="2023-07-11T19:47:55 IDT" duration-ms="3146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC28()[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:47:55 IDT" name="TC28" description="Checkout Page" finished-at="2023-07-11T19:48:06 IDT" duration-ms="11348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC28 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:48:06 IDT" name="tearDown" finished-at="2023-07-11T19:48:06 IDT" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:48:06 IDT" name="setup" finished-at="2023-07-11T19:48:09 IDT" duration-ms="3063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC29()[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:48:09 IDT" name="TC29" description="Checkout Page" finished-at="2023-07-11T19:48:20 IDT" duration-ms="10398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC29 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:48:20 IDT" name="tearDown" finished-at="2023-07-11T19:48:20 IDT" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:48:20 IDT" name="setup" finished-at="2023-07-11T19:48:23 IDT" duration-ms="3293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC30()[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:48:23 IDT" name="TC30" description="Checkout Page" finished-at="2023-07-11T19:48:33 IDT" duration-ms="9830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC30 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutPageTests@328902d5]" started-at="2023-07-11T19:48:33 IDT" name="tearDown" finished-at="2023-07-11T19:48:33 IDT" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckoutPageTests -->
+      <class name="tests.BaseTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.BaseTest@3157e4c0]" started-at="2023-07-11T19:47:15 IDT" name="setup" finished-at="2023-07-11T19:47:22 IDT" duration-ms="6951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="myTest()[pri:0, instance:tests.BaseTest@3157e4c0]" started-at="2023-07-11T19:47:22 IDT" name="myTest" finished-at="2023-07-11T19:47:22 IDT" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BaseTest@3157e4c0]" started-at="2023-07-11T19:47:22 IDT" name="tearDown" finished-at="2023-07-11T19:47:22 IDT" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BaseTest -->
+      <class name="tests.CartPageTests">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:47:22 IDT" name="setup" finished-at="2023-07-11T19:47:27 IDT" duration-ms="4308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="myTest()[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:47:27 IDT" name="myTest" finished-at="2023-07-11T19:47:27 IDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:47:27 IDT" name="tearDown" finished-at="2023-07-11T19:47:27 IDT" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:47:27 IDT" name="setup" finished-at="2023-07-11T19:47:30 IDT" duration-ms="3095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC21()[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:47:30 IDT" name="TC21" description="Cart Page" finished-at="2023-07-11T19:47:38 IDT" duration-ms="8523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC21 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:47:38 IDT" name="tearDown" finished-at="2023-07-11T19:47:39 IDT" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:47:39 IDT" name="setup" finished-at="2023-07-11T19:47:42 IDT" duration-ms="3433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC22()[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:47:42 IDT" name="TC22" description="Cart Page" finished-at="2023-07-11T19:47:55 IDT" duration-ms="12545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC22 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:47:55 IDT" name="tearDown" finished-at="2023-07-11T19:47:55 IDT" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:47:55 IDT" name="setup" finished-at="2023-07-11T19:47:58 IDT" duration-ms="3148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC23()[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:47:58 IDT" name="TC23" description="Cart Page" finished-at="2023-07-11T19:48:12 IDT" duration-ms="13117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC23 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:48:12 IDT" name="tearDown" finished-at="2023-07-11T19:48:12 IDT" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:48:12 IDT" name="setup" finished-at="2023-07-11T19:48:15 IDT" duration-ms="3154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC24()[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:48:15 IDT" name="TC24" description="Cart Page" finished-at="2023-07-11T19:48:28 IDT" duration-ms="12522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC24 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:48:28 IDT" name="tearDown" finished-at="2023-07-11T19:48:28 IDT" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:48:28 IDT" name="setup" finished-at="2023-07-11T19:48:31 IDT" duration-ms="2959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC25()[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:48:31 IDT" name="TC25" description="Cart page" finished-at="2023-07-11T19:48:39 IDT" duration-ms="8629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC25 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartPageTests@72e789cb]" started-at="2023-07-11T19:48:39 IDT" name="tearDown" finished-at="2023-07-11T19:48:40 IDT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartPageTests -->
+      <class name="tests.MenuPageTests">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:48:20 IDT" name="setup" finished-at="2023-07-11T19:48:23 IDT" duration-ms="3262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="myTest()[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:48:23 IDT" name="myTest" finished-at="2023-07-11T19:48:23 IDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:48:23 IDT" name="tearDown" finished-at="2023-07-11T19:48:23 IDT" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:48:23 IDT" name="setup" finished-at="2023-07-11T19:48:26 IDT" duration-ms="3061" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC36()[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:48:26 IDT" name="TC36" description="Menu Page" finished-at="2023-07-11T19:48:31 IDT" duration-ms="4551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC36 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:48:31 IDT" name="tearDown" finished-at="2023-07-11T19:48:31 IDT" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:48:31 IDT" name="setup" finished-at="2023-07-11T19:48:34 IDT" duration-ms="3102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC37()[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:48:34 IDT" name="TC37" description="Menu Page" finished-at="2023-07-11T19:48:40 IDT" duration-ms="5642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC37 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:48:40 IDT" name="tearDown" finished-at="2023-07-11T19:48:41 IDT" duration-ms="790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:48:41 IDT" name="setup" finished-at="2023-07-11T19:48:44 IDT" duration-ms="3278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC38()[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:48:44 IDT" name="TC38" description="Menu Page" finished-at="2023-07-11T19:48:55 IDT" duration-ms="10695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC38 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:48:55 IDT" name="tearDown" finished-at="2023-07-11T19:48:55 IDT" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:48:55 IDT" name="setup" finished-at="2023-07-11T19:48:58 IDT" duration-ms="3178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC39()[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:48:58 IDT" name="TC39" description="Menu Page" finished-at="2023-07-11T19:49:04 IDT" duration-ms="5194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC39 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:49:04 IDT" name="tearDown" finished-at="2023-07-11T19:49:04 IDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:49:04 IDT" name="setup" finished-at="2023-07-11T19:49:07 IDT" duration-ms="3083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC40()[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:49:07 IDT" name="TC40" description="Menu Page" finished-at="2023-07-11T19:49:12 IDT" duration-ms="5674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC40 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MenuPageTests@7c1812b3]" started-at="2023-07-11T19:49:12 IDT" name="tearDown" finished-at="2023-07-11T19:49:13 IDT" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.MenuPageTests -->
+      <class name="tests.LogInPageTests">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:48:33 IDT" name="setup" finished-at="2023-07-11T19:48:36 IDT" duration-ms="2829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="myTest()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:48:36 IDT" name="myTest" finished-at="2023-07-11T19:48:36 IDT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:48:36 IDT" name="tearDown" finished-at="2023-07-11T19:48:37 IDT" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:48:37 IDT" name="setup" finished-at="2023-07-11T19:48:40 IDT" duration-ms="2926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC01()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:48:40 IDT" name="TC01" description="Login Page" finished-at="2023-07-11T19:48:43 IDT" duration-ms="3167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:48:43 IDT" name="tearDown" finished-at="2023-07-11T19:48:43 IDT" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:48:43 IDT" name="setup" finished-at="2023-07-11T19:48:46 IDT" duration-ms="3457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC02()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:48:46 IDT" name="TC02" description="Login Page" finished-at="2023-07-11T19:48:49 IDT" duration-ms="2442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:48:49 IDT" name="tearDown" finished-at="2023-07-11T19:48:49 IDT" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:48:49 IDT" name="setup" finished-at="2023-07-11T19:48:52 IDT" duration-ms="3273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC03()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:48:52 IDT" name="TC03" description="Login Page" finished-at="2023-07-11T19:48:56 IDT" duration-ms="3391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:48:56 IDT" name="tearDown" finished-at="2023-07-11T19:48:56 IDT" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:48:56 IDT" name="setup" finished-at="2023-07-11T19:48:59 IDT" duration-ms="3111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC04()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:48:59 IDT" name="TC04" description="Login Page" finished-at="2023-07-11T19:49:02 IDT" duration-ms="2755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:02 IDT" name="tearDown" finished-at="2023-07-11T19:49:02 IDT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:02 IDT" name="setup" finished-at="2023-07-11T19:49:05 IDT" duration-ms="3116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC05()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:05 IDT" name="TC05" description="Login Page" finished-at="2023-07-11T19:49:08 IDT" duration-ms="2328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:08 IDT" name="tearDown" finished-at="2023-07-11T19:49:08 IDT" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:08 IDT" name="setup" finished-at="2023-07-11T19:49:11 IDT" duration-ms="2878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC06()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:11 IDT" name="TC06" description="Login Page" finished-at="2023-07-11T19:49:13 IDT" duration-ms="2593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:13 IDT" name="tearDown" finished-at="2023-07-11T19:49:13 IDT" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:13 IDT" name="setup" finished-at="2023-07-11T19:49:16 IDT" duration-ms="3027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC07(java.lang.String,java.lang.String)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:16 IDT" name="TC07" description="Login Page" data-provider="getData" finished-at="2023-07-11T19:49:19 IDT" duration-ms="2192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:19 IDT" name="tearDown" finished-at="2023-07-11T19:49:19 IDT" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:19 IDT" name="setup" finished-at="2023-07-11T19:49:22 IDT" duration-ms="2710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC07(java.lang.String,java.lang.String)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:22 IDT" name="TC07" description="Login Page" data-provider="getData" finished-at="2023-07-11T19:49:24 IDT" duration-ms="2169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:24 IDT" name="tearDown" finished-at="2023-07-11T19:49:24 IDT" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:24 IDT" name="setup" finished-at="2023-07-11T19:49:27 IDT" duration-ms="2779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC07(java.lang.String,java.lang.String)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:27 IDT" name="TC07" description="Login Page" data-provider="getData" finished-at="2023-07-11T19:49:29 IDT" duration-ms="2152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:29 IDT" name="tearDown" finished-at="2023-07-11T19:49:29 IDT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:29 IDT" name="setup" finished-at="2023-07-11T19:49:32 IDT" duration-ms="2858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC07(java.lang.String,java.lang.String)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:32 IDT" name="TC07" description="Login Page" data-provider="getData" finished-at="2023-07-11T19:49:34 IDT" duration-ms="2150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:34 IDT" name="tearDown" finished-at="2023-07-11T19:49:34 IDT" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:34 IDT" name="setup" finished-at="2023-07-11T19:49:37 IDT" duration-ms="2807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC07(java.lang.String,java.lang.String)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:37 IDT" name="TC07" description="Login Page" data-provider="getData" finished-at="2023-07-11T19:49:39 IDT" duration-ms="2144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yitzi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:39 IDT" name="tearDown" finished-at="2023-07-11T19:49:39 IDT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:39 IDT" name="setup" finished-at="2023-07-11T19:49:42 IDT" duration-ms="2798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC07(java.lang.String,java.lang.String)[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:42 IDT" name="TC07" description="Login Page" data-provider="getData" finished-at="2023-07-11T19:49:44 IDT" duration-ms="2159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yitzi Weiner]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogInPageTests@43034809]" started-at="2023-07-11T19:49:44 IDT" name="tearDown" finished-at="2023-07-11T19:49:45 IDT" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LogInPageTests -->
+      <class name="tests.OverviewPageTests">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.OverviewPageTests@39e67516]" started-at="2023-07-11T19:48:40 IDT" name="setup" finished-at="2023-07-11T19:48:43 IDT" duration-ms="3333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="myTest()[pri:0, instance:tests.OverviewPageTests@39e67516]" started-at="2023-07-11T19:48:43 IDT" name="myTest" finished-at="2023-07-11T19:48:43 IDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OverviewPageTests@39e67516]" started-at="2023-07-11T19:48:43 IDT" name="tearDown" finished-at="2023-07-11T19:48:43 IDT" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.OverviewPageTests@39e67516]" started-at="2023-07-11T19:48:43 IDT" name="setup" finished-at="2023-07-11T19:48:47 IDT" duration-ms="3579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC31()[pri:0, instance:tests.OverviewPageTests@39e67516]" started-at="2023-07-11T19:48:47 IDT" name="TC31" description="Overview Page" finished-at="2023-07-11T19:48:59 IDT" duration-ms="12438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC31 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OverviewPageTests@39e67516]" started-at="2023-07-11T19:48:59 IDT" name="tearDown" finished-at="2023-07-11T19:49:00 IDT" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.OverviewPageTests@39e67516]" started-at="2023-07-11T19:49:00 IDT" name="setup" finished-at="2023-07-11T19:49:03 IDT" duration-ms="3038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee69ad8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC32()[pri:0, instance:tests.OverviewPageTests@39e67516]" started-at="2023-07-11T19:49:03 IDT" name="TC32" description="Overview Page" finished-at="2023-07-11T19:49:14 IDT" duration-ms="10976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC32 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OverviewPageTests@39e67516]" started-at="2023-07-11T19:49:14 IDT" name="tearDown" finished-at="2023-07-11T19:49:14 IDT" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.OverviewPageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

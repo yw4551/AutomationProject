@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="tests.ThanksPageTests">
+        <methods>
+          <include name="TC35"/>
+          <include name="TC34"/>
+          <include name="failedTest"/>
+          <include name="TC33"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.ThanksPageTests -->
+      <class name="tests.ProductsPageTest">
+        <methods>
+          <include name="TC12"/>
+          <include name="TC13"/>
+          <include name="TC08"/>
+          <include name="failedTest"/>
+          <include name="TC09"/>
+          <include name="TC10"/>
+          <include name="TC11"/>
+          <include name="tearDown"/>
+          <include name="TC14"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.ProductsPageTest -->
+      <class name="tests.MenuPageTests">
+        <methods>
+          <include name="TC40"/>
+          <include name="failedTest"/>
+          <include name="TC37"/>
+          <include name="TC36"/>
+          <include name="TC39"/>
+          <include name="TC38"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.MenuPageTests -->
+      <class name="tests.LogInPageTests">
+        <methods>
+          <include name="TC07"/>
+          <include name="failedTest"/>
+          <include name="TC02"/>
+          <include name="TC01"/>
+          <include name="TC04"/>
+          <include name="TC03"/>
+          <include name="TC06"/>
+          <include name="TC05"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.LogInPageTests -->
+      <class name="tests.ProductPageTests">
+        <methods>
+          <include name="TC17"/>
+          <include name="TC18"/>
+          <include name="TC19"/>
+          <include name="failedTest"/>
+          <include name="TC15"/>
+          <include name="TC16"/>
+          <include name="TC20"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.ProductPageTests -->
+      <class name="tests.CheckoutPageTests">
+        <methods>
+          <include name="TC29"/>
+          <include name="TC28"/>
+          <include name="failedTest"/>
+          <include name="TC27"/>
+          <include name="TC26"/>
+          <include name="tearDown"/>
+          <include name="TC30"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CheckoutPageTests -->
+      <class name="tests.CartPageTests">
+        <methods>
+          <include name="TC21"/>
+          <include name="TC22"/>
+          <include name="failedTest"/>
+          <include name="TC24"/>
+          <include name="TC25"/>
+          <include name="TC23"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CartPageTests -->
+      <class name="tests.OverviewPageTests">
+        <methods>
+          <include name="TC31"/>
+          <include name="TC32"/>
+          <include name="failedTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.OverviewPageTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
