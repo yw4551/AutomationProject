@@ -9,7 +9,7 @@ import io.qameta.allure.Step;
 
 public class AboutPage extends BasePage{
 
-	@FindBy(css = ".MuiTypography-body1.css-sere2z")
+	@FindBy(xpath = "//*[@id=\"__next\"]/div[5]/div/div[1]/div[2]/h3")
 	private WebElement title;
 	
 	public AboutPage(WebDriver driver) {
@@ -20,7 +20,7 @@ public class AboutPage extends BasePage{
 	@Step("Check if its the about page")
 	public boolean isItTheAboutPage() {
 		AllureAttachmens.attachElementScreenshot(title);
-		return getText(title).equalsIgnoreCase("The world relies on your code. Test on thousands of device, browser, and OS configurations – anywhere, any time.");
+		return getText(title).equalsIgnoreCase("The Sauce Test Toolchain");
 	}
 
 }

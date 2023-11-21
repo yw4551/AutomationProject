@@ -3,6 +3,7 @@ package Utils;
 import java.nio.charset.StandardCharsets;
 import java.util.stream.Collectors;
 
+import com.github.underscore.U;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -10,8 +11,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.logging.LogEntry;
 import org.openqa.selenium.logging.LogType;
-
-import com.github.underscore.lodash.U;
 
 import io.qameta.allure.Attachment;
 

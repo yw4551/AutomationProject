@@ -24,7 +24,7 @@ public class OverviewPageTests extends BaseTest{
 
 	@Severity(SeverityLevel.CRITICAL)
 	@Feature("Finish")
-	@Story("As a user i will expect that i can complite the order")
+	@Story("As a user i will expect that i can complete the order")
 	@Owner(value = "Yitzi Weiner")
 	@Test(description = "Overview Page")
 	@Description("Finish the order")
@@ -40,35 +40,37 @@ public class OverviewPageTests extends BaseTest{
 		pp.getProductFromListAndAddIt("Sauce Labs Bolt T-Shirt");
 		pp.openCart();
 		cp.checkout();
-		chp.fiilForm("Yitzi", "Weiner", "00000");
+		chp.SuccessfullyForm();
 		chp.clickContinue();
 		op.clickFinish();
 		assertTrue(tp.isItThanksPage());
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+
+		tp.goBack();
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
 	}
 	
 	@Severity(SeverityLevel.CRITICAL)
-	@Feature("Finish")
-	@Story("As a user i will expect that i can complite the order")
+	@Feature("Cancel")
+	@Story("As a user i will expect that i will be able to cancel the order")
 	@Owner(value = "Yitzi Weiner")
 	@Test(description = "Overview Page")
 	@Description("Cancel the order")
 	public void TC32() {
-		LogInPage lip = new LogInPage(driver);
 		ProductsPage pp = new ProductsPage(driver);
 		CartPage cp = new CartPage(driver);
 		CheckoutPage chp = new CheckoutPage(driver);
 		OverviewPage op = new OverviewPage(driver);
-		
-		lip.seccessfulyLogIn();
+
+
 		pp.getProductFromListAndAddIt("Sauce Labs Bolt T-Shirt");
 		pp.openCart();
 		cp.checkout();
-		chp.fiilForm("Yitzi", "Weiner", "00000");
+		chp.SuccessfullyForm();
 		chp.clickContinue();
 		op.clickCancal();
-		assertTrue(pp.isItTheProductsPage());
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+		pp.openCart();
+		assertTrue(cp.checkIfTheCartIsEmpty());
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
 	}
 	
 }

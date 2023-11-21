@@ -2,6 +2,7 @@ package tests;
 
 import static org.testng.Assert.assertTrue;
 
+import Utils.Utils;
 import org.testng.annotations.Test;
 
 import Utils.AllureAttachmens;
@@ -34,7 +35,7 @@ public class MenuPageTests extends BaseTest{
 		lip.seccessfulyLogIn();
 		pp.openMenu();
 		assertTrue(mp.isTheMenuOPened());
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
 	}
 	
 	@Severity(SeverityLevel.CRITICAL)
@@ -44,15 +45,12 @@ public class MenuPageTests extends BaseTest{
 	@Test(description = "Menu Page")
 	@Description("Close menu")
 	public void TC37() {
-		LogInPage lip = new LogInPage(driver);
 		ProductsPage pp = new ProductsPage(driver);
 		MenuPage mp = new MenuPage(driver);
-		
-		lip.seccessfulyLogIn();
-		pp.openMenu();
+
 		mp.closeMenu();
 		assertTrue(pp.isTheMenuClosed());
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
 	}
 	
 	@Severity(SeverityLevel.CRITICAL)
@@ -66,12 +64,14 @@ public class MenuPageTests extends BaseTest{
 		ProductsPage pp = new ProductsPage(driver);
 		MenuPage mp = new MenuPage(driver);
 		AboutPage ap = new AboutPage(driver);
-		
-		lip.seccessfulyLogIn();
+
 		pp.openMenu();
 		mp.clickAbout();
 		assertTrue(ap.isItTheAboutPage());
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+
+		lip.sleep(1000);
+		driver.navigate().back();
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
 	}
 	
 	@Severity(SeverityLevel.CRITICAL)
@@ -80,16 +80,17 @@ public class MenuPageTests extends BaseTest{
 	@Owner(value = "Yitzi Weiner")
 	@Test(description = "Menu Page")
 	@Description("Logout option")
-	public void TC39() {
+	public void TC39() throws InterruptedException {
 		LogInPage lip = new LogInPage(driver);
 		ProductsPage pp = new ProductsPage(driver);
 		MenuPage mp = new MenuPage(driver);
-		
+
+		driver.get(Utils.readProperty("URL"));
 		lip.seccessfulyLogIn();
 		pp.openMenu();
 		mp.clickLogout();
 		assertTrue(lip.isItTheLoginPage());
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
 	}
 	
 	@Severity(SeverityLevel.CRITICAL)
@@ -108,7 +109,7 @@ public class MenuPageTests extends BaseTest{
 		pp.openMenu();
 		mp.clickAllItems();
 		assertTrue(pp.isItTheProductsPage());
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
 	}
 	
 }

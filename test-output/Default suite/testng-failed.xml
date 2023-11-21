@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.CartPageTests">
+      <class name="tests.MenuPageTests">
         <methods>
-          <include name="TC22"/>
-          <include name="failedTest"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="TC40"/>
+          <include name="setAllureEnvironment"/>
+          <include name="TC39"/>
+          <include name="TC38"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- tests.CartPageTests -->
+      </class> <!-- tests.MenuPageTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

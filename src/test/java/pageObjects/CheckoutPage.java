@@ -29,15 +29,25 @@ public class CheckoutPage extends BasePage{
 	}
 	
 	@Step("Fill the form")
-	public void fiilForm(String fitst, String last, String zip) {
+	public void fillForm(String first, String last, String zip) {
 		AllureAttachmens.attachElementScreenshot(firstNameField);
-		fillText(firstNameField, fitst);
+		fillText(firstNameField, first);
 		AllureAttachmens.attachElementScreenshot(lastNameField);
 		fillText(lastNameField, last);
 		AllureAttachmens.attachElementScreenshot(zipCodeField);
 		fillText(zipCodeField, zip);
 	}
-	
+
+	@Step("Fill the form")
+	public void SuccessfullyForm (){
+		AllureAttachmens.attachElementScreenshot(firstNameField);
+		fillText(firstNameField, "Yitzi");
+		AllureAttachmens.attachElementScreenshot(lastNameField);
+		fillText(lastNameField, "Weiner");
+		AllureAttachmens.attachElementScreenshot(zipCodeField);
+		fillText(zipCodeField, "00000");
+	}
+
 	@Step("Click on the continue btn")
 	public void clickContinue() {
 		AllureAttachmens.attachElementScreenshot(continueBtn);

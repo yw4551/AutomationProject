@@ -25,7 +25,7 @@ public class ThanksPageTests extends BaseTest{
 	@Story("As a user i will expect to get a thanks message")
 	@Owner(value = "Yitzi Weiner")
 	@Test(description = "Thank You Page")
-	@Description("Check if you get the thanks masege")
+	@Description("Check if you get the thanks massage")
 	public void TC33() {
 		LogInPage lip = new LogInPage(driver);
 		ProductsPage pp = new ProductsPage(driver);
@@ -38,11 +38,11 @@ public class ThanksPageTests extends BaseTest{
 		pp.getProductFromListAndAddIt("Sauce Labs Bolt T-Shirt");
 		pp.openCart();
 		cp.checkout();
-		chp.fiilForm("Yitzi", "Weiner", "00000");
+		chp.SuccessfullyForm();
 		chp.clickContinue();
 		op.clickFinish();
 		tp.isItTheRightMesege();
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
 	}
 	
 	@Severity(SeverityLevel.CRITICAL)
@@ -52,24 +52,12 @@ public class ThanksPageTests extends BaseTest{
 	@Test(description = "Thank You Page")
 	@Description("Check if you could go back")
 	public void TC34() {
-		LogInPage lip = new LogInPage(driver);
 		ProductsPage pp = new ProductsPage(driver);
-		CartPage cp = new CartPage(driver);
-		CheckoutPage chp = new CheckoutPage(driver);
-		OverviewPage op = new OverviewPage(driver);
 		ThanksPage tp = new ThanksPage(driver);
-		
-		lip.seccessfulyLogIn();
-		pp.getProductFromListAndAddIt("Sauce Labs Bolt T-Shirt");
-		pp.openCart();
-		cp.checkout();
-		chp.fiilForm("Yitzi", "Weiner", "00000");
-		chp.clickContinue();
-		op.clickFinish();
+
 		tp.goBack();
 		pp.isItTheProductsPage();
-		pp.sleep(1000);
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
 	}
 	
 	@Severity(SeverityLevel.CRITICAL)
@@ -79,25 +67,23 @@ public class ThanksPageTests extends BaseTest{
 	@Test(description = "Thank You Page")
 	@Description("Check if you could replace another order")
 	public void TC35() {
-		LogInPage lip = new LogInPage(driver);
 		ProductsPage pp = new ProductsPage(driver);
 		CartPage cp = new CartPage(driver);
 		CheckoutPage chp = new CheckoutPage(driver);
 		OverviewPage op = new OverviewPage(driver);
 		ThanksPage tp = new ThanksPage(driver);
-		
-		lip.seccessfulyLogIn();
+
 		pp.getProductFromListAndAddIt("Sauce Labs Bolt T-Shirt");
 		pp.openCart();
 		cp.checkout();
-		chp.fiilForm("Yitzi", "Weiner", "00000");
+		chp.SuccessfullyForm();
 		chp.clickContinue();
 		op.clickFinish();
 		tp.goBack();
 		pp.getProductFromListAndAddIt("Sauce Labs Bolt T-Shirt");
 		pp.openCart();
 		cp.checkout();
-		chp.fiilForm("Yitzi", "Weiner", "00000");
+		chp.fillForm("Yitzi", "Weiner", "00000");
 		chp.clickContinue();
 		op.clickFinish();
 		tp.isItThanksPage();

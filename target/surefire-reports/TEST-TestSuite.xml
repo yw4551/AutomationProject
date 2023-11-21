@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="151.222" tests="54" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="936.941" tests="135" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="17"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\atara\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1255"/>
-    <property name="java.class.path" value="C:\Users\atara\eclipse-workspace\AutomationProject.maven\target\test-classes;C:\Users\atara\eclipse-workspace\AutomationProject.maven\target\classes;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.1\selenium-java-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.1\selenium-api-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.1\selenium-chrome-driver-4.9.1.jar;C:\Users\atara\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\atara\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\atara\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.1\selenium-chromium-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.1\selenium-json-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.1\selenium-manager-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.1\selenium-devtools-v111-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.1\selenium-devtools-v112-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.9.1\selenium-devtools-v113-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.1\selenium-devtools-v85-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.1\selenium-edge-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.1\selenium-firefox-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar;C:\Users\atara\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.1\selenium-ie-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.1\selenium-remote-driver-4.9.1.jar;C:\Users\atara\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\atara\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\atara\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\atara\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\atara\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\atara\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\atara\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\atara\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.1\selenium-safari-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.1\selenium-support-4.9.1.jar;C:\Users\atara\.m2\repository\org\aspectj\aspectjweaver\1.9.9.1\aspectjweaver-1.9.9.1.jar;C:\Users\atara\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\atara\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\atara\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\atara\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\atara\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\atara\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\atara\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\atara\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\atara\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\atara\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\atara\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\atara\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\atara\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\atara\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\atara\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\atara\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\atara\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\atara\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\atara\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\atara\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\atara\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\atara\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\atara\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\atara\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\atara\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\atara\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\atara\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\atara\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\atara\.m2\repository\com\github\automatedowl\allure-environment-writer\1.0.0\allure-environment-writer-1.0.0.jar;C:\Users\atara\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\atara\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\atara\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\atara\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\atara\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\atara\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\atara\.m2\repository\org\slf4j\slf4j-simple\2.0.0\slf4j-simple-2.0.0.jar;C:\Users\atara\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.3\webdrivermanager-5.3.3.jar;C:\Users\atara\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java\3.3.0\docker-java-3.3.0.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java-core\3.3.0\docker-java-core-3.3.0.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java-api\3.3.0\docker-java-api-3.3.0.jar;C:\Users\atara\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\atara\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\atara\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\atara\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\atara\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\atara\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.0\docker-java-transport-httpclient5-3.3.0.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java-transport\3.3.0\docker-java-transport-3.3.0.jar;C:\Users\atara\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\atara\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-testng\2.22.0\allure-testng-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-java-commons\2.22.0\allure-java-commons-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-model\2.22.0\allure-model-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-test-filter\2.22.0\allure-test-filter-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-rest-assured\2.22.0\allure-rest-assured-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-attachments\2.22.0\allure-attachments-2.22.0.jar;C:\Users\atara\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\atara\.m2\repository\com\github\javadev\underscore\1.58\underscore-1.58.jar;"/>
+    <property name="java.class.path" value="C:\Users\atara\eclipse-workspace\AutomationProject.maven\target\test-classes;C:\Users\atara\eclipse-workspace\AutomationProject.maven\target\classes;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.1\selenium-java-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.1\selenium-api-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.1\selenium-chrome-driver-4.9.1.jar;C:\Users\atara\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\atara\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\atara\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.1\selenium-chromium-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.1\selenium-json-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.1\selenium-manager-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.1\selenium-devtools-v111-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.1\selenium-devtools-v112-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.9.1\selenium-devtools-v113-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.1\selenium-devtools-v85-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.1\selenium-edge-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.1\selenium-firefox-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar;C:\Users\atara\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.1\selenium-ie-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.1\selenium-remote-driver-4.9.1.jar;C:\Users\atara\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\atara\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\atara\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\atara\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\atara\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\atara\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\atara\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\atara\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.1\selenium-safari-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.1\selenium-support-4.9.1.jar;C:\Users\atara\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;C:\Users\atara\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\atara\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\atara\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\atara\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\atara\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\atara\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\atara\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\atara\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\atara\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\atara\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\atara\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\atara\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\atara\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\atara\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\atara\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\atara\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\atara\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\atara\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\atara\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\atara\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\atara\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\atara\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\atara\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\atara\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\atara\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\atara\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\atara\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\atara\.m2\repository\com\github\automatedowl\allure-environment-writer\1.0.0\allure-environment-writer-1.0.0.jar;C:\Users\atara\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\atara\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\atara\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\atara\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\atara\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\atara\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\atara\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\atara\.m2\repository\org\slf4j\slf4j-simple\2.0.5\slf4j-simple-2.0.5.jar;C:\Users\atara\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\atara\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\atara\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\atara\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\atara\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\atara\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\atara\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\atara\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\atara\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\atara\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\atara\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-testng\2.22.0\allure-testng-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-java-commons\2.22.0\allure-java-commons-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-model\2.22.0\allure-model-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-test-filter\2.22.0\allure-test-filter-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-rest-assured\2.22.0\allure-rest-assured-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-attachments\2.22.0\allure-attachments-2.22.0.jar;C:\Users\atara\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\atara\.m2\repository\com\github\javadev\underscore\1.87\underscore-1.87.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -13,564 +14,202 @@
     <property name="user.timezone" value="Asia/Jerusalem"/>
     <property name="user.country.format" value="US"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="java.vm.specification.version" value="17"/>
+    <property name="java.vm.specification.version" value="11"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IL"/>
     <property name="allure.link.issue.pattern" value="https://example.org/issue/{}"/>
-    <property name="sun.boot.library.path" value="C:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\atara\AppData\Local\Temp\surefire1557379438752337166\surefirebooter-20230711194713096_3.jar C:\Users\atara\AppData\Local\Temp\surefire1557379438752337166 2023-07-11T19-47-12_815-jvmRun1 surefire-20230711194713096_1tmp surefire_0-20230711194713096_2tmp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.21.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\atara\AppData\Local\Temp\surefire12012770101510554650\surefirebooter-20231121152239866_3.jar C:\Users\atara\AppData\Local\Temp\surefire12012770101510554650 2023-11-21T15-22-39_565-jvmRun1 surefire-20231121152239866_1tmp surefire_0-20231121152239866_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\atara\eclipse-workspace\AutomationProject.maven\target\test-classes;C:\Users\atara\eclipse-workspace\AutomationProject.maven\target\classes;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.1\selenium-java-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.1\selenium-api-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.1\selenium-chrome-driver-4.9.1.jar;C:\Users\atara\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\atara\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\atara\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.1\selenium-chromium-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.1\selenium-json-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.1\selenium-manager-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.1\selenium-devtools-v111-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.1\selenium-devtools-v112-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.9.1\selenium-devtools-v113-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.1\selenium-devtools-v85-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.1\selenium-edge-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.1\selenium-firefox-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar;C:\Users\atara\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.1\selenium-ie-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.1\selenium-remote-driver-4.9.1.jar;C:\Users\atara\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\atara\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\atara\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\atara\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\atara\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\atara\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\atara\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\atara\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.1\selenium-safari-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.1\selenium-support-4.9.1.jar;C:\Users\atara\.m2\repository\org\aspectj\aspectjweaver\1.9.9.1\aspectjweaver-1.9.9.1.jar;C:\Users\atara\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\atara\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\atara\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\atara\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\atara\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\atara\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\atara\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\atara\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\atara\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\atara\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\atara\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\atara\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\atara\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\atara\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\atara\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\atara\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\atara\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\atara\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\atara\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\atara\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\atara\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\atara\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\atara\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\atara\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\atara\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\atara\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\atara\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\atara\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\atara\.m2\repository\com\github\automatedowl\allure-environment-writer\1.0.0\allure-environment-writer-1.0.0.jar;C:\Users\atara\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\atara\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\atara\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\atara\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\atara\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\atara\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\atara\.m2\repository\org\slf4j\slf4j-simple\2.0.0\slf4j-simple-2.0.0.jar;C:\Users\atara\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.3\webdrivermanager-5.3.3.jar;C:\Users\atara\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java\3.3.0\docker-java-3.3.0.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java-core\3.3.0\docker-java-core-3.3.0.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java-api\3.3.0\docker-java-api-3.3.0.jar;C:\Users\atara\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\atara\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\atara\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\atara\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\atara\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\atara\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.0\docker-java-transport-httpclient5-3.3.0.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java-transport\3.3.0\docker-java-transport-3.3.0.jar;C:\Users\atara\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\atara\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-testng\2.22.0\allure-testng-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-java-commons\2.22.0\allure-java-commons-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-model\2.22.0\allure-model-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-test-filter\2.22.0\allure-test-filter-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-rest-assured\2.22.0\allure-rest-assured-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-attachments\2.22.0\allure-attachments-2.22.0.jar;C:\Users\atara\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\atara\.m2\repository\com\github\javadev\underscore\1.58\underscore-1.58.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\atara\eclipse-workspace\AutomationProject.maven\target\test-classes;C:\Users\atara\eclipse-workspace\AutomationProject.maven\target\classes;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.1\selenium-java-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.1\selenium-api-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.1\selenium-chrome-driver-4.9.1.jar;C:\Users\atara\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\atara\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\atara\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.1\selenium-chromium-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.1\selenium-json-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.1\selenium-manager-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.1\selenium-devtools-v111-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.1\selenium-devtools-v112-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.9.1\selenium-devtools-v113-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.1\selenium-devtools-v85-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.1\selenium-edge-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.1\selenium-firefox-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar;C:\Users\atara\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.1\selenium-ie-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.1\selenium-remote-driver-4.9.1.jar;C:\Users\atara\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\atara\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\atara\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\atara\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\atara\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\atara\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\atara\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\atara\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\atara\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\atara\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\atara\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.1\selenium-safari-driver-4.9.1.jar;C:\Users\atara\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.1\selenium-support-4.9.1.jar;C:\Users\atara\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;C:\Users\atara\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\atara\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\atara\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\atara\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\atara\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\atara\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\atara\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\atara\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\atara\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\atara\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\atara\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\atara\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\atara\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\atara\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\atara\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\atara\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\atara\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\atara\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\atara\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\atara\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\atara\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\atara\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\atara\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\atara\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\atara\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\atara\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\atara\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\atara\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\atara\.m2\repository\com\github\automatedowl\allure-environment-writer\1.0.0\allure-environment-writer-1.0.0.jar;C:\Users\atara\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\atara\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\atara\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\atara\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\atara\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\atara\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\atara\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\atara\.m2\repository\org\slf4j\slf4j-simple\2.0.5\slf4j-simple-2.0.5.jar;C:\Users\atara\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\atara\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\atara\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\atara\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\atara\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\atara\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\atara\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\atara\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\atara\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\atara\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\atara\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\atara\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\atara\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-testng\2.22.0\allure-testng-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-java-commons\2.22.0\allure-java-commons-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-model\2.22.0\allure-model-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-test-filter\2.22.0\allure-test-filter-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-rest-assured\2.22.0\allure-rest-assured-2.22.0.jar;C:\Users\atara\.m2\repository\io\qameta\allure\allure-attachments\2.22.0\allure-attachments-2.22.0.jar;C:\Users\atara\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\atara\.m2\repository\com\github\javadev\underscore\1.87\underscore-1.87.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="allure.results.directory" value="C:\Users\atara\eclipse-workspace\AutomationProject.maven/target/allure-results"/>
     <property name="user.home" value="C:\Users\atara"/>
     <property name="user.language" value="he"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2023-01-17"/>
-    <property name="java.home" value="C:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.21.9-hotspot"/>
     <property name="testng.dtd.http" value="true"/>
     <property name="file.separator" value="\"/>
     <property name="allure.link.tms.pattern" value="https://example.org/tms/{}"/>
-    <property name="style.color" value="always"/>
     <property name="basedir" value="C:\Users\atara\eclipse-workspace\AutomationProject.maven"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\atara\AppData\Local\Temp\surefire1557379438752337166\surefirebooter-20230711194713096_3.jar"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\atara\AppData\Local\Temp\surefire12012770101510554650\surefirebooter-20231121152239866_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17.0.6+10"/>
+    <property name="java.runtime.version" value="11.0.21+9"/>
     <property name="user.name" value="atara"/>
     <property name="path.separator" value=";"/>
+    <property name="otel.metrics.exporter" value="none"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
     <property name="file.encoding" value="Cp1255"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Temurin-17.0.6+10"/>
+    <property name="java.vendor.version" value="Temurin-11.0.21+9"/>
     <property name="localRepository" value="C:\Users\atara\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\atara\AppData\Local\Temp\"/>
-    <property name="java.version" value="17.0.6"/>
+    <property name="java.version" value="11.0.21"/>
     <property name="user.dir" value="C:\Users\atara\eclipse-workspace\AutomationProject.maven"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="user.language.format" value="en"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="native.encoding" value="Cp1255"/>
-    <property name="java.library.path" value="C:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin/server;C:/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.7.7-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-8.0.372.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.2\bin;;C:\Program Files\Microsoft VS Code\bin;C:\Users\atara\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.21.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-11.0.21.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.2\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\atara\AndroidStudioProjects\platform-tools_r34.0.4-windows\platform-tools;C:\Users\atara\AndroidStudioProjects;C:\Users\atara\AndroidStudioProjects\jars;C:\Program Files\nodejs\node_modules\npm\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\atara\scoop\apps\openjdk8-redhat\current\bin;C:\Users\atara\scoop\shims;C:\Users\atara\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\atara\AppData\Local\Programs\Python\Python311\;C:\Users\atara\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\atara\AppData\Roaming\npm;C:\Users\atara\AndroidStudioProjects\jars;C:\Users\atara\AndroidStudioProjects;C:\Program Files\Java\jdk-11.0.21.9-hotspot\bin;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="java.vm.version" value="17.0.6+10"/>
+    <property name="java.vm.version" value="11.0.21+9"/>
+    <property name="java.specification.maintenance.version" value="2"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="myTest" classname="tests.ProductPageTests" time="0.052">
-    <system-out><![CDATA[Allure environment data saved.
-]]></system-out>
+  <testcase name="TC01" classname="tests.LogInPageTests" time="9.518">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Nov 21, 2023 3:22:42 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
 ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
-SSStttaaarrrtttiiinnngg g C hCCrhhrroomemoDrmeiveDerDr ir11v4e.ri0 .v51e713r45 ..190104 ..(5037.835576.3b95c.00990  e(83(f8348f662bbecc0002995eee88dffd44affe221ee200322f553ee6ddfdd6aa2ee6113220339f6f3a36e6ff4662926-63r30e09f96s6a/aebe4r49a9-r-nercefhsf-/shb/erbraanadscnchh/--5h7he3ea5a@dd{ss#/15/075537532@5}{@)# {1o#01n50 52p2}o})r )to n o p3no6 r1pt6o 1r2t8
-6 O24n66l0y
-1 O0lnol
-cyaO lnl locyc oanllon cecacoltni nocenocstn inaeoncrset  iaaorlnels o awlalerodew.ed
- .Palle
-alPsolewe easdse.ee  s
-hPtetplse:a/s/ece h hrstoetmeep dshr:it/vt/epcrhs.r:coh/mr/oecmdhirruiomvm.eeorrd.grc/ihsrveceuorrm.iitcuyh-mrc.ooomnrisgui/mdse.ercoaurtrgii/otsnyes-c cuforonirst iysd-uecgroganetssiitodineosnr sfa otorin o snkuseg gfeeopsrit nisgou gnCghesrso tmioeonDn rski evoeenpr  kseaiefnpegi. nCg
-h rCohmreoDmreiDvreirv esra fe.sa
-fe.
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 42594
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-CCCChhhhrrrroooommmmeeeeDDDrDrririiivvvveer rw awesar ss  twseaatrrs at wresdtat esasd rus tcstecuadecr sctsseeufsdcuc lseslfsyuus.lcfclu
-yel.slsy.
-fu
-lly.
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 20980
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:47:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:47:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:47:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:47:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:47:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
 ]]></system-err>
   </testcase>
-  <testcase name="TC15" classname="tests.ProductPageTests" time="3.384">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 34211
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:47:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC16" classname="tests.ProductPageTests" time="2.225">
-    <system-err><![CDATA[Jul 11, 2023 7:47:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:47:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 24328
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:47:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC17" classname="tests.ProductPageTests" time="3.173">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 29856
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 31177
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:47:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:47:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC18" classname="tests.ProductPageTests" time="5.581">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 3868
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:48:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC19" classname="tests.ProductPageTests" time="1.009">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 18418
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:48:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC20" classname="tests.ProductPageTests" time="0.76">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 47298
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:49:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="myTest" classname="tests.CheckoutPageTests" time="0.053"/>
-  <testcase name="TC26" classname="tests.CheckoutPageTests" time="1.284">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 6929
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:47:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC27" classname="tests.CheckoutPageTests" time="2.141">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 11458
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:47:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC28" classname="tests.CheckoutPageTests" time="4.186">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 25333
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:48:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC29" classname="tests.CheckoutPageTests" time="1.192"/>
-  <testcase name="TC30" classname="tests.CheckoutPageTests" time="2.237">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 26967
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:48:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:48:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="myTest" classname="tests.BaseTest" time="0.054"/>
-  <testcase name="myTest" classname="tests.ThanksPageTests" time="0.017">
-    <system-err><![CDATA[Jul 11, 2023 7:47:22 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Connection reset
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-
-]]></system-err>
-  </testcase>
-  <testcase name="TC33" classname="tests.ThanksPageTests" time="2.002">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 38924
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-]]></system-err>
-  </testcase>
-  <testcase name="TC34" classname="tests.ThanksPageTests" time="0.036"/>
-  <testcase name="TC35" classname="tests.ThanksPageTests" time="1.006">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 6363
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 38652
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:48:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:48:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="myTest" classname="tests.ProductsPageTest" time="0.022"/>
-  <testcase name="TC08" classname="tests.ProductsPageTest" time="0.089">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 25186
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:47:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC09" classname="tests.ProductsPageTest" time="3.686">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 31252
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 3684
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:47:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC10" classname="tests.ProductsPageTest" time="2.551">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 6425
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-]]></system-err>
-  </testcase>
-  <testcase name="TC11" classname="tests.ProductsPageTest" time="1.514">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 3340
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:48:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC12" classname="tests.ProductsPageTest" time="5.761"/>
-  <testcase name="TC13" classname="tests.ProductsPageTest" time="3.841">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 23039
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:48:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC14" classname="tests.ProductsPageTest" time="1.371">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 42014
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:48:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:48:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="myTest" classname="tests.CartPageTests" time="0">
-    <system-err><![CDATA[Jul 11, 2023 7:47:22 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Connection reset
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 17167
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 4030
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 38691
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-ChromeDriver was started successfully.
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 21189
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 31376
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:47:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:47:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:47:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:47:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:47:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC21" classname="tests.CartPageTests" time="2.006"/>
-  <testcase name="TC22" classname="tests.CartPageTests" time="0.186">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 10603
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:47:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:47:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC23" classname="tests.CartPageTests" time="2.216">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 26046
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:48:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC24" classname="tests.CartPageTests" time="1.386">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 41845
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:48:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC25" classname="tests.CartPageTests" time="0.756">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 47370
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:48:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:48:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="myTest" classname="tests.MenuPageTests" time="0.008">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 40920
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 10928
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:48:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:48:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC36" classname="tests.MenuPageTests" time="4.551">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 13234
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-]]></system-err>
-  </testcase>
-  <testcase name="TC37" classname="tests.MenuPageTests" time="0.567">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 4366
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-]]></system-err>
-  </testcase>
-  <testcase name="TC38" classname="tests.MenuPageTests" time="2.602">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 25847
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:48:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC39" classname="tests.MenuPageTests" time="0.776">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 17228
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:49:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC40" classname="tests.MenuPageTests" time="1.843"/>
-  <testcase name="myTest" classname="tests.LogInPageTests" time="0.028">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 14659
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-]]></system-err>
-  </testcase>
-  <testcase name="TC01" classname="tests.LogInPageTests" time="3.167">
-    <system-err><![CDATA[Jul 11, 2023 7:48:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 19580
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:48:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC02" classname="tests.LogInPageTests" time="1.936"/>
-  <testcase name="TC03" classname="tests.LogInPageTests" time="3.391">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 38968
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-]]></system-err>
-  </testcase>
-  <testcase name="TC04" classname="tests.LogInPageTests" time="2.756">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 7342
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:49:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC05" classname="tests.LogInPageTests" time="0.771">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 27396
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:49:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC06" classname="tests.LogInPageTests" time="2.595"/>
-  <testcase name="TC07[standard_user, secret_sauce](1)" classname="tests.LogInPageTests" time="2.196">
-    <system-err><![CDATA[Jul 11, 2023 7:49:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC07[, secret_sauce](2)" classname="tests.LogInPageTests" time="2.169">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 39558
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:49:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC07[standard_user, ](3)" classname="tests.LogInPageTests" time="2.154">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 29575
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:49:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC07[standard_user, 1234](4)" classname="tests.LogInPageTests" time="2.151">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 7911
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:49:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC07[Yitzi, secret_sauce](5)" classname="tests.LogInPageTests" time="2.144">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 41667
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:49:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC07[Yitzi Weiner, 123456](6)" classname="tests.LogInPageTests" time="2.159">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 37380
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:49:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="myTest" classname="tests.OverviewPageTests" time="0.002">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 5948
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-]]></system-err>
-  </testcase>
-  <testcase name="TC31" classname="tests.OverviewPageTests" time="0.103">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 30781
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 11, 2023 7:48:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jul 11, 2023 7:48:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-]]></system-err>
-  </testcase>
-  <testcase name="TC32" classname="tests.OverviewPageTests" time="3.119">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 23355
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-]]></system-err>
-  </testcase>
+  <testcase name="TC01" classname="tests.LogInPageTests" time="6.81"/>
+  <testcase name="TC01" classname="tests.LogInPageTests" time="7.122"/>
+  <testcase name="TC02" classname="tests.LogInPageTests" time="2.888"/>
+  <testcase name="TC02" classname="tests.LogInPageTests" time="3.011"/>
+  <testcase name="TC02" classname="tests.LogInPageTests" time="2.813"/>
+  <testcase name="TC03" classname="tests.LogInPageTests" time="3.161"/>
+  <testcase name="TC03" classname="tests.LogInPageTests" time="2.873"/>
+  <testcase name="TC03" classname="tests.LogInPageTests" time="2.651"/>
+  <testcase name="TC04" classname="tests.LogInPageTests" time="3.708"/>
+  <testcase name="TC04" classname="tests.LogInPageTests" time="3.095"/>
+  <testcase name="TC04" classname="tests.LogInPageTests" time="2.775"/>
+  <testcase name="TC05" classname="tests.LogInPageTests" time="2.944"/>
+  <testcase name="TC05" classname="tests.LogInPageTests" time="2.907"/>
+  <testcase name="TC05" classname="tests.LogInPageTests" time="2.757"/>
+  <testcase name="TC06" classname="tests.LogInPageTests" time="2.79"/>
+  <testcase name="TC06" classname="tests.LogInPageTests" time="2.887"/>
+  <testcase name="TC06" classname="tests.LogInPageTests" time="2.944"/>
+  <testcase name="TC07[, secret_sauce](1)" classname="tests.LogInPageTests" time="2.444"/>
+  <testcase name="TC07[, secret_sauce](1)" classname="tests.LogInPageTests" time="2.773"/>
+  <testcase name="TC07[, secret_sauce](1)" classname="tests.LogInPageTests" time="2.478"/>
+  <testcase name="TC07[standard_user, ](2)" classname="tests.LogInPageTests" time="2.476"/>
+  <testcase name="TC07[standard_user, ](2)" classname="tests.LogInPageTests" time="2.674"/>
+  <testcase name="TC07[standard_user, ](2)" classname="tests.LogInPageTests" time="2.447"/>
+  <testcase name="TC07[standard_user, 1234](3)" classname="tests.LogInPageTests" time="2.557"/>
+  <testcase name="TC07[standard_user, 1234](3)" classname="tests.LogInPageTests" time="2.727"/>
+  <testcase name="TC07[standard_user, 1234](3)" classname="tests.LogInPageTests" time="2.501"/>
+  <testcase name="TC07[Yitzi, secret_sauce](4)" classname="tests.LogInPageTests" time="2.799"/>
+  <testcase name="TC07[Yitzi, secret_sauce](4)" classname="tests.LogInPageTests" time="2.873"/>
+  <testcase name="TC07[Yitzi, secret_sauce](4)" classname="tests.LogInPageTests" time="2.569"/>
+  <testcase name="TC07[Yitzi Weiner, 123456](5)" classname="tests.LogInPageTests" time="2.722"/>
+  <testcase name="TC07[Yitzi Weiner, 123456](5)" classname="tests.LogInPageTests" time="2.694"/>
+  <testcase name="TC07[Yitzi Weiner, 123456](5)" classname="tests.LogInPageTests" time="2.429"/>
+  <testcase name="TC07[standard_user, secret_sauce](6)" classname="tests.LogInPageTests" time="2.797"/>
+  <testcase name="TC07[standard_user, secret_sauce](6)" classname="tests.LogInPageTests" time="2.535"/>
+  <testcase name="TC07[standard_user, secret_sauce](6)" classname="tests.LogInPageTests" time="2.617"/>
+  <testcase name="TC08" classname="tests.ProductsPageTest" time="3.268"/>
+  <testcase name="TC08" classname="tests.ProductsPageTest" time="2.75"/>
+  <testcase name="TC08" classname="tests.ProductsPageTest" time="3.124"/>
+  <testcase name="TC09" classname="tests.ProductsPageTest" time="4.357"/>
+  <testcase name="TC09" classname="tests.ProductsPageTest" time="4.523"/>
+  <testcase name="TC09" classname="tests.ProductsPageTest" time="4.246"/>
+  <testcase name="TC12" classname="tests.ProductsPageTest" time="2.27"/>
+  <testcase name="TC12" classname="tests.ProductsPageTest" time="2.457"/>
+  <testcase name="TC12" classname="tests.ProductsPageTest" time="2.149"/>
+  <testcase name="TC10" classname="tests.ProductsPageTest" time="6.386"/>
+  <testcase name="TC10" classname="tests.ProductsPageTest" time="6.439"/>
+  <testcase name="TC10" classname="tests.ProductsPageTest" time="6.701"/>
+  <testcase name="TC13" classname="tests.ProductsPageTest" time="3.178"/>
+  <testcase name="TC13" classname="tests.ProductsPageTest" time="3.286"/>
+  <testcase name="TC13" classname="tests.ProductsPageTest" time="2.934"/>
+  <testcase name="TC11" classname="tests.ProductsPageTest" time="5.464"/>
+  <testcase name="TC11" classname="tests.ProductsPageTest" time="6.603"/>
+  <testcase name="TC11" classname="tests.ProductsPageTest" time="5.474"/>
+  <testcase name="TC14" classname="tests.ProductsPageTest" time="1.127"/>
+  <testcase name="TC14" classname="tests.ProductsPageTest" time="1.102"/>
+  <testcase name="TC14" classname="tests.ProductsPageTest" time="1.117"/>
+  <testcase name="TC15" classname="tests.ProductPageTests" time="6.405"/>
+  <testcase name="TC15" classname="tests.ProductPageTests" time="6.658"/>
+  <testcase name="TC15" classname="tests.ProductPageTests" time="6.734"/>
+  <testcase name="TC16" classname="tests.ProductPageTests" time="2.917"/>
+  <testcase name="TC16" classname="tests.ProductPageTests" time="3.404"/>
+  <testcase name="TC16" classname="tests.ProductPageTests" time="2.99"/>
+  <testcase name="TC17" classname="tests.ProductPageTests" time="6.717"/>
+  <testcase name="TC17" classname="tests.ProductPageTests" time="6.927"/>
+  <testcase name="TC17" classname="tests.ProductPageTests" time="6.715"/>
+  <testcase name="TC18" classname="tests.ProductPageTests" time="5.312"/>
+  <testcase name="TC18" classname="tests.ProductPageTests" time="5.809"/>
+  <testcase name="TC18" classname="tests.ProductPageTests" time="5.239"/>
+  <testcase name="TC19" classname="tests.ProductPageTests" time="13.921"/>
+  <testcase name="TC19" classname="tests.ProductPageTests" time="15.755"/>
+  <testcase name="TC19" classname="tests.ProductPageTests" time="14.418"/>
+  <testcase name="TC20" classname="tests.ProductPageTests" time="12.657"/>
+  <testcase name="TC20" classname="tests.ProductPageTests" time="14.562"/>
+  <testcase name="TC20" classname="tests.ProductPageTests" time="13.313"/>
+  <testcase name="TC21" classname="tests.CartPageTests" time="8.351"/>
+  <testcase name="TC21" classname="tests.CartPageTests" time="8.561"/>
+  <testcase name="TC21" classname="tests.CartPageTests" time="8.643"/>
+  <testcase name="TC22" classname="tests.CartPageTests" time="10.004"/>
+  <testcase name="TC22" classname="tests.CartPageTests" time="9.968"/>
+  <testcase name="TC22" classname="tests.CartPageTests" time="9.804"/>
+  <testcase name="TC23" classname="tests.CartPageTests" time="10.246"/>
+  <testcase name="TC23" classname="tests.CartPageTests" time="11.93"/>
+  <testcase name="TC23" classname="tests.CartPageTests" time="10.519"/>
+  <testcase name="TC24" classname="tests.CartPageTests" time="7.835"/>
+  <testcase name="TC24" classname="tests.CartPageTests" time="8.154"/>
+  <testcase name="TC24" classname="tests.CartPageTests" time="8.502"/>
+  <testcase name="TC25" classname="tests.CartPageTests" time="0.922"/>
+  <testcase name="TC25" classname="tests.CartPageTests" time="0.908"/>
+  <testcase name="TC25" classname="tests.CartPageTests" time="1.098"/>
+  <testcase name="TC26" classname="tests.CheckoutPageTests" time="10.662"/>
+  <testcase name="TC26" classname="tests.CheckoutPageTests" time="10.366"/>
+  <testcase name="TC26" classname="tests.CheckoutPageTests" time="12.753"/>
+  <testcase name="TC27" classname="tests.CheckoutPageTests" time="6.999"/>
+  <testcase name="TC27" classname="tests.CheckoutPageTests" time="6.288"/>
+  <testcase name="TC27" classname="tests.CheckoutPageTests" time="9.017"/>
+  <testcase name="TC28" classname="tests.CheckoutPageTests" time="6.385"/>
+  <testcase name="TC28" classname="tests.CheckoutPageTests" time="6.151"/>
+  <testcase name="TC28" classname="tests.CheckoutPageTests" time="7.539"/>
+  <testcase name="TC29" classname="tests.CheckoutPageTests" time="6.341"/>
+  <testcase name="TC29" classname="tests.CheckoutPageTests" time="6.236"/>
+  <testcase name="TC29" classname="tests.CheckoutPageTests" time="7.381"/>
+  <testcase name="TC30" classname="tests.CheckoutPageTests" time="5.617"/>
+  <testcase name="TC30" classname="tests.CheckoutPageTests" time="5.48"/>
+  <testcase name="TC30" classname="tests.CheckoutPageTests" time="6.079"/>
+  <testcase name="TC31" classname="tests.OverviewPageTests" time="11.36"/>
+  <testcase name="TC31" classname="tests.OverviewPageTests" time="11.152"/>
+  <testcase name="TC31" classname="tests.OverviewPageTests" time="14.663"/>
+  <testcase name="TC32" classname="tests.OverviewPageTests" time="10.655"/>
+  <testcase name="TC32" classname="tests.OverviewPageTests" time="9.886"/>
+  <testcase name="TC32" classname="tests.OverviewPageTests" time="17.705"/>
+  <testcase name="TC33" classname="tests.ThanksPageTests" time="10.638"/>
+  <testcase name="TC33" classname="tests.ThanksPageTests" time="10.33"/>
+  <testcase name="TC33" classname="tests.ThanksPageTests" time="14.347"/>
+  <testcase name="TC34" classname="tests.ThanksPageTests" time="0.971"/>
+  <testcase name="TC34" classname="tests.ThanksPageTests" time="0.888"/>
+  <testcase name="TC34" classname="tests.ThanksPageTests" time="1.303"/>
+  <testcase name="TC35" classname="tests.ThanksPageTests" time="17.3"/>
+  <testcase name="TC35" classname="tests.ThanksPageTests" time="16.864"/>
+  <testcase name="TC35" classname="tests.ThanksPageTests" time="19.762"/>
+  <testcase name="TC36" classname="tests.MenuPageTests" time="4.386"/>
+  <testcase name="TC36" classname="tests.MenuPageTests" time="4.17"/>
+  <testcase name="TC36" classname="tests.MenuPageTests" time="5.088"/>
+  <testcase name="TC37" classname="tests.MenuPageTests" time="1.246"/>
+  <testcase name="TC37" classname="tests.MenuPageTests" time="0.895"/>
+  <testcase name="TC37" classname="tests.MenuPageTests" time="1.295"/>
+  <testcase name="TC38" classname="tests.MenuPageTests" time="14.911"/>
+  <testcase name="TC38" classname="tests.MenuPageTests" time="17.714"/>
+  <testcase name="TC38" classname="tests.MenuPageTests" time="21.66"/>
+  <testcase name="TC39" classname="tests.MenuPageTests" time="6.446"/>
+  <testcase name="TC39" classname="tests.MenuPageTests" time="6.746"/>
+  <testcase name="TC39" classname="tests.MenuPageTests" time="7.595"/>
+  <testcase name="TC40" classname="tests.MenuPageTests" time="5.711"/>
+  <testcase name="TC40" classname="tests.MenuPageTests" time="5.573"/>
+  <testcase name="TC40" classname="tests.MenuPageTests" time="6.264"/>
 </testsuite>

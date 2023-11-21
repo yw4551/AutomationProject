@@ -13,8 +13,8 @@ public class MenuPage extends BasePage{
 	private WebElement allItems;
 	@FindBy(css = "#about_sidebar_link")
 	private WebElement about;
-	@FindBy(css = "#logout_sidebar_link")
-	private WebElement logout;
+	@FindBy(id = "logout_sidebar_link")
+	private WebElement logoutOption;
 	@FindBy(css = "#react-burger-cross-btn")
 	private WebElement closeMenu;
 	
@@ -37,8 +37,9 @@ public class MenuPage extends BasePage{
 	
 	@Step("Click on logout")
 	public void clickLogout() {
-		AllureAttachmens.attachElementScreenshot(logout);
-		click(logout);
+		AllureAttachmens.attachElementScreenshot(logoutOption);
+		sleep(1000);
+		click(logoutOption);
 	}
 	
 	@Step("Click on all itens")

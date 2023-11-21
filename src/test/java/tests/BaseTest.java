@@ -2,50 +2,48 @@ package tests;
 
 import static org.testng.Assert.assertTrue;
 
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.testng.ITestContext;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
-
-import com.google.common.collect.ImmutableMap;
-import static com.github.automatedowl.tools.AllureEnvironmentWriter.allureEnvironmentWriter;
-
 import Utils.Utils;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.*;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class BaseTest {
 	protected WebDriver driver;
-	protected TakesScreenshot ts;
+	public String hubURL = "http://localhost:4444/wd/hub";
 
-	@BeforeSuite
-	void setAllureEnvironment() {
-		allureEnvironmentWriter(
-				ImmutableMap.<String, String>builder()
-				.put("Browser", "Chrome")
-				.put("Browser.Version", "114.0.5735.199")
-				.put("URL", "https://www.saucedemo.com/")
-				.build());
-	}
+	@Parameters({"browser"})
+	@BeforeClass
+	public void setUp(String browser) throws MalformedURLException {
+		switch(browser){
+			case "chrome":
+				ChromeOptions chromeOptions = new ChromeOptions();
+				chromeOptions.setPlatformName("Linux");
+				driver = new RemoteWebDriver(new URL(hubURL),chromeOptions);
+				break;
+			case "firefox":
+				FirefoxOptions firefoxOptions = new FirefoxOptions();
+				firefoxOptions.setPlatformName("Linux");
+				driver = new RemoteWebDriver(new URL(hubURL),firefoxOptions);
+				break;
+			case "edge":
+				EdgeOptions edgeOptions = new EdgeOptions();
+				edgeOptions.setPlatformName("Linux");
+				driver = new RemoteWebDriver(new URL(hubURL),edgeOptions);
+				break;
+		}
 
-	@Test
-	void myTest() {
-		assertTrue(true);
-	}
-
-	@BeforeMethod
-	protected void setup(ITestContext testContext) throws InterruptedException {
-		driver = WebDriverManager.chromedriver().create();
-		testContext.setAttribute("WebDriver", this.driver);
 		driver.manage().window().maximize();
 		driver.get(Utils.readProperty("URL"));
-		Thread.sleep(1000);
 	}
 
-	@AfterMethod
-	public void tearDown() {
+	@AfterClass
+	public void tearDown(){
 		driver.quit();
 	}
 

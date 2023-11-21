@@ -16,6 +16,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import pageObjects.LogInPage;
+import pageObjects.MenuPage;
 import pageObjects.ProductsPage;
 
 @Epic("Login Page")
@@ -23,17 +24,22 @@ public class LogInPageTests extends BaseTest{
 
 	@Severity(SeverityLevel.BLOCKER)
 	@Feature("Log in")
-	@Story("As a user i will like to log in to the site seccssfuly")
+	@Story("As a user i will like to log in to the site successfully")
 	@Owner(value = "Yitzi Weiner")
 	@Test(description = "Login Page")
 	@Description("Log in with correct User and Password")
 	public void TC01() {
 		LogInPage lip = new LogInPage(driver);
 		ProductsPage pp = new ProductsPage(driver);
+		MenuPage mp = new MenuPage(driver);
 
 		lip.seccessfulyLogIn();
 		assertTrue(pp.isItTheProductsPage());
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+
+		pp.openMenu();
+		mp.clickLogout();
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
+		lip.sleep(500);
 	}
 
 	@Severity(SeverityLevel.CRITICAL)
@@ -47,7 +53,8 @@ public class LogInPageTests extends BaseTest{
 
 		lip.login("", Utils.readProperty("password"));
 		assertEquals(lip.isItTheRightErrorMasege(), "Epic sadface: Username is required");
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
+		driver.navigate().refresh();
 	}
 
 	@Severity(SeverityLevel.CRITICAL)
@@ -61,7 +68,8 @@ public class LogInPageTests extends BaseTest{
 
 		lip.login(Utils.readProperty("user"), "");
 		assertEquals(lip.isItTheRightErrorMasege(), "Epic sadface: Password is required");
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
+		driver.navigate().refresh();
 	}
 
 	@Severity(SeverityLevel.CRITICAL)
@@ -75,7 +83,8 @@ public class LogInPageTests extends BaseTest{
 
 		lip.login("Yitzi weiner", Utils.readProperty("password"));
 		assertEquals(lip.isItTheRightErrorMasege(), "Epic sadface: Username and password do not match any user in this service");
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
+		driver.navigate().refresh();
 	}
 
 	@Severity(SeverityLevel.CRITICAL)
@@ -89,7 +98,8 @@ public class LogInPageTests extends BaseTest{
 
 		lip.login(Utils.readProperty("user"), "123456");
 		assertEquals(lip.isItTheRightErrorMasege(), "Epic sadface: Username and password do not match any user in this service");
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
+		driver.navigate().refresh();
 	}
 
 	@Severity(SeverityLevel.CRITICAL)
@@ -103,7 +113,8 @@ public class LogInPageTests extends BaseTest{
 
 		lip.login("Yitzi Weiner", "123456");
 		assertEquals(lip.isItTheRightErrorMasege(), "Epic sadface: Username and password do not match any user in this service");
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
+		driver.navigate().refresh();
 	}
 
 	@Severity(SeverityLevel.CRITICAL)
@@ -116,18 +127,19 @@ public class LogInPageTests extends BaseTest{
 		LogInPage lip = new LogInPage(driver);
 		
 		lip.login(user, password);
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
+		driver.navigate().refresh();
 	}
 
 	@DataProvider
 	public Object[][] getData(){
 		Object[][] myData = {
-				{Utils.readProperty("user"), Utils.readProperty("password")},
 				{"", Utils.readProperty("password")},
 				{Utils.readProperty("user"), ""},
 				{Utils.readProperty("user"), "1234"},
 				{"Yitzi", Utils.readProperty("password")},
-				{"Yitzi Weiner", "123456"}
+				{"Yitzi Weiner", "123456"},
+				{Utils.readProperty("user"), Utils.readProperty("password")}
 		};
 		return myData;
 	}

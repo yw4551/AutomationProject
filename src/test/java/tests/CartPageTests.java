@@ -20,7 +20,7 @@ public class CartPageTests extends BaseTest{
 	
 	@Severity(SeverityLevel.MINOR)
 	@Feature("Remove products from the cart")
-	@Story("As a user i will expect to remove a prodduct from the cart")
+	@Story("As a user i will expect to remove a product from the cart")
 	@Owner(value = "Yitzi Weiner")
 	@Test(description = "Cart Page")
 	@Description("Remove product from the cart page")
@@ -35,7 +35,9 @@ public class CartPageTests extends BaseTest{
 		cp.checkIfItemInList("Sauce Labs Bolt T-Shirt");
 		cp.chooseAProductAndRemoveIt("Sauce Labs Bolt T-Shirt");
 		pp.assertTrue(cp.checkIfItemNotInList("Sauce Labs Bolt T-Shirt"));
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+
+		cp.continueShoping();
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
 	}
 	
 	@Severity(SeverityLevel.MINOR)
@@ -45,11 +47,9 @@ public class CartPageTests extends BaseTest{
 	@Test(description = "Cart Page")
 	@Description("Remove 2 products from the cart page")
 	public void TC22() {
-		LogInPage lip = new LogInPage(driver);
 		ProductsPage pp = new ProductsPage(driver);
 		CartPage cp = new CartPage(driver);
-		
-		lip.seccessfulyLogIn();
+
 		pp.getProductFromListAndAddIt("Sauce Labs Bike Light");
 		pp.getProductFromListAndAddIt("Sauce Labs Fleece Jacket");
 		pp.openCart();
@@ -58,8 +58,9 @@ public class CartPageTests extends BaseTest{
 		cp.chooseAProductAndRemoveIt("Sauce Labs Bike Light");
 		cp.chooseAProductAndRemoveIt("Sauce Labs Fleece Jacket");
 		pp.assertTrue(cp.checkIfTheCartIsEmpty());
-		pp.sleep(1000);
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+
+		cp.continueShoping();
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
 	}
 	
 	@Severity(SeverityLevel.MINOR)
@@ -69,32 +70,29 @@ public class CartPageTests extends BaseTest{
 	@Test(description = "Cart Page")
 	@Description("Remove all products from the cart page")
 	public void TC23() {
-		LogInPage lip = new LogInPage(driver);
 		ProductsPage pp = new ProductsPage(driver);
 		CartPage cp = new CartPage(driver);
-		
-		lip.seccessfulyLogIn();
+
 		pp.addAllProducts();
 		pp.openCart();
 		cp.isAlltheProductsInCart();
 		cp.removeAllProducts();
 		pp.assertTrue(cp.checkIfTheCartIsEmpty());
-		pp.sleep(1000);
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+
+		cp.continueShoping();
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
 	}
 	
 	@Severity(SeverityLevel.CRITICAL)
-	@Feature("Continue Shoping")
-	@Story("As a user i will expect that ill be able to go back and continiue shoping")
+	@Feature("Continue Shopping")
+	@Story("As a user i will expect that ill be able to go back and continue shopping")
 	@Owner(value = "Yitzi Weiner")
 	@Test(description = "Cart Page")
-	@Description("Add a product after opning the cart")
+	@Description("Add a product after opening the cart")
 	public void TC24() {
-		LogInPage lip = new LogInPage(driver);
 		ProductsPage pp = new ProductsPage(driver);
 		CartPage cp = new CartPage(driver);
-		
-		lip.seccessfulyLogIn();
+
 		pp.getProductFromListAndAddIt("Sauce Labs Bolt T-Shirt");
 		pp.openCart();
 		cp.checkIfItemInList("Sauce Labs Bolt T-Shirt");
@@ -103,29 +101,23 @@ public class CartPageTests extends BaseTest{
 		pp.openCart();
 		cp.checkIfItemInList("Sauce Labs Fleece Jacket");
 		pp.assertTrue(cp.isTheRightNumOfProductsInCart("2"));
-		pp.sleep(1000);
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
 	}
 	
 	@Severity(SeverityLevel.CRITICAL)
 	@Feature("Checkout")
-	@Story("As a user i will whant that i will ce able to checkout")
+	@Story("As a user i will want that i will ce able to checkout")
 	@Owner(value = "Yitzi Weiner")
 	@Test(description = "Cart page")
 	@Description("Checkout")
 	public void TC25() {
-		LogInPage lip = new LogInPage(driver);
 		ProductsPage pp = new ProductsPage(driver);
 		CartPage cp = new CartPage(driver);
 		CheckoutPage chp = new CheckoutPage(driver);
-		
-		lip.seccessfulyLogIn();
-		pp.getProductFromListAndAddIt("Sauce Labs Backpack");
-		pp.openCart();
+
 		cp.checkout();
 		pp.assertTrue(chp.isItTheinfoPage());
-		pp.sleep(1000);
-		AllureAttachmens.addTextAttachment("Test Ended Seccessfuly");
+		AllureAttachmens.addTextAttachment("Test Ended Successfully");
 	}
 	
 }
